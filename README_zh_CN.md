@@ -30,7 +30,7 @@
 ## 文件结构
 
 ```
-资源包/
+resource_pack/
 ├── pack.mcmeta          # 资源包元数据
 ├── pack.png            # 资源包图标
 └── assets/
@@ -44,7 +44,7 @@
 ## 如何安装
 
 1. 下载本资源包
-2. 将`资源包`​文件夹的内容以下内容打包为ZIP文件并复制到Minecraft的`resourcepacks`目录中：
+2. 将`resource_pack`​文件夹的内容以下内容打包为ZIP文件并复制到Minecraft的`resourcepacks`目录中：
 
    ```language
    ├── pack.mcmeta          # 资源包元数据
