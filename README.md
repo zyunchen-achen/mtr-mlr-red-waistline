@@ -1,85 +1,85 @@
-# MLR红色腰线列车
+# MLR Red Waistline Train
 
-这是一个为Minecraft的 [Minecraft-Transit-Railway](https://github.com/Minecraft-Transit-Railway/Minecraft-Transit-Railway) MOD设计的资源包，为MLR列车添加了红色腰线涂装。
+This is a resource pack designed for the [Minecraft-Transit-Railway](https://github.com/Minecraft-Transit-Railway/Minecraft-Transit-Railway) MOD for Minecraft, adding a red waistline livery to the MLR train.
 
-## 车型
+## Train Models
 
-- **红色腰线涂装：红色腰线**（`#dc241f`​） **、黑色车窗**
-- **内饰： 无更改**
-- **多种车型支持 - MLR系列全规格：**
+- **Red waistline livery: Red waistline** (`#dc241f`​) **, black windows**
+- **Interior: No changes**
+- **Multiple model support - Full MLR series specifications:**
 
-  1. 标准尺寸：5门6窗
+  1. Standard size: 5 doors, 6 windows
 
-  2. 小型：4门5窗
+  2. Small size: 4 doors, 5 windows
 
-  3. 迷你：2门3窗
+  3. Mini size: 2 doors, 3 windows
 
-## 外观
+## Appearance
 
-### 列车外观展示
+### Train Appearance Showcase
 
-**车头正面视图（无变化）**
-![车头正面](images/车头正面（不变）.png)
+**Front view (unchanged)**
+![Front view](images/车头正面（不变）.png)
 
-**列车侧面视图**
-![列车侧面](images/侧面图片.png)
+**Side view**
+![Side view](images/侧面图片.png)
 
-**列车内饰视图（无变化）**
-![列车内饰](images/内饰（不变）.png)
+**Interior view (unchanged)**
+![Interior view](images/内饰（不变）.png)
 
-## 文件结构
+## File Structure
 
 ```
-资源包/
-├── pack.mcmeta          # 资源包元数据
-├── pack.png            # 资源包图标
+resource_pack/
+├── pack.mcmeta          # Resource pack metadata
+├── pack.png            # Resource pack icon
 └── assets/
     └── mtr/
-        ├── mtr_custom_resources.json  # 自定义列车配置
+        ├── mtr_custom_resources.json  # Custom train configuration
         └── custom_directory/
-            ├── mlr_red.png           # 红色腰线列车纹理
-            └── custom_sign.png       # 自定义标志纹理
+            ├── mlr_red.png           # Red waistline train texture
+            └── custom_sign.png       # Custom sign texture
 ```
 
-## 如何安装
+## How to Install
 
-1. 下载本资源包
-2. 将`资源包`​文件夹的内容以下内容打包为ZIP文件并复制到Minecraft的`resourcepacks`目录中：
+1. Download this resource pack
+2. Package the contents of the `resource_pack`​ folder into a ZIP file and copy it to Minecraft's `resourcepacks` directory:
 
-   ```language
-   ├── pack.mcmeta          # 资源包元数据
-   ├── pack.png            # 资源包图标
+   ```
+   ├── pack.mcmeta          # Resource pack metadata
+   ├── pack.png            # Resource pack icon
    └── assets/
        └── mtr/
-           ├── mtr_custom_resources.json  # 自定义列车配置
+           ├── mtr_custom_resources.json  # Custom train configuration
            └── custom_directory/
-               ├── mlr_red.png           # 红色腰线列车纹理
-               └── custom_sign.png       # 自定义标志纹理
+               ├── mlr_red.png           # Red waistline train texture
+               └── custom_sign.png       # Custom sign texture
    ```
-3. 在游戏中启用此资源包
-4. 确保已安装MTR模组
+3. Enable this resource pack in the game
+4. Ensure the MTR mod is installed
 
-## 兼容性
+## Compatibility
 
-- **Minecraft版本**：支持1.16版本
-- **MTR模组版本**：支持3.2.2，但也支持在此之后的版本（比如4.0.2）
+- **Minecraft version**: Supports 1.16 version
+- **MTR mod version**: Supports 3.2.2, but also supports later versions (e.g., 4.0.2)
 
-### 如何解决版本不兼容
+### How to Resolve Version Incompatibility
 
-进入资源包文件夹下的pack.mcmeta，你将看到如下内容
+Navigate to pack.mcmeta in the resource pack folder, you will see the following content:
 
 ```mcmeta
 {
 	"pack": {
 		"pack_format": 6,
-		"description": "红色腰线的MLR列车"
+		"description": "MLR train with red waistline"
 	}
 }
 ```
 
-将`"pack_format"`​的值更改为你使用的版本号：内容来自[Minecraft官方wiki](https://zh.minecraft.wiki/w/%E8%B5%84%E6%BA%90%E5%8C%85#pack.mcmeta)
+Change the value of `"pack_format"`​ to your version number according to the [Minecraft official wiki](https://minecraft.wiki/w/Resource_pack#pack.mcmeta):
 
-|版本|数字|
+|Version|Number|
 | ------------------| -------|
 |1.6.1 - 1.8.9|1|
 |1.9 - 1.10.2|2|
@@ -102,6 +102,6 @@
 |1.21.9 - 1.21.10|69.0|
 |1.21.11|75.0|
 
-## 许可证
+## License
 
-本项目采用MIT许可证。详见[LICENSE](LICENSE)文件。
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
