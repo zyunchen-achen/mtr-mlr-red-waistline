@@ -1,21 +1,21 @@
 {
     "custom_trains": {
         "mlr_red": {
-            "name": "MLR红色",
+            "name": "MLR Red",
             "color": "dc241f",
             "base_train_type": "mlr",
             "speed_sound_base_id": "mlr",
             "texture_id": "mtr:custom_directory/mlr_red.png"
         },
         "mlr_red_small": {
-            "name": "MLR红色(小型)",
+            "name": "MLR Red(small)",
             "color": "dc241f",
             "base_train_type": "mlr_small",
             "speed_sound_base_id": "mlr",
             "texture_id": "mtr:custom_directory/mlr_red.png"
         },
         "mlr_red_mini": {
-            "name": "MLR红色(迷你)",
+            "name": "MLR Red(mini)",
             "color": "dc241f",
             "base_train_type": "mlr_mini",
             "speed_sound_base_id": "mlr",
