@@ -1,3 +1,4 @@
+[简体中文](README_zh_CN)
 # MLR Red Waistline Train
 
 This is a resource pack designed for the [Minecraft-Transit-Railway](https://github.com/Minecraft-Transit-Railway/Minecraft-Transit-Railway) MOD for Minecraft, adding a red waistline livery to the MLR train.
